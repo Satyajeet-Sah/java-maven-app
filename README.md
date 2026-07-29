@@ -1,15 +1,42 @@
-# simple-java-maven-app
+# Java Maven Application – Jenkins CI/CD Pipeline
 
-This repository is for the
-[Build a Java app with Maven](https://jenkins.io/doc/tutorials/build-a-java-app-with-maven/)
-tutorial in the [Jenkins User Documentation](https://jenkins.io/doc/).
+## Overview
 
-The repository contains a simple Java application which outputs the string
-"Hello world!" and is accompanied by a couple of unit tests to check that the
-main application works as expected. The results of these tests are saved to a
-JUnit XML report.
+This repository is a fork of the Jenkins sample Java Maven application and has been customized for learning and testing Jenkins Declarative Pipelines.
 
-The `jenkins` directory contains an example of the `Jenkinsfile` (i.e. Pipeline)
-you'll be creating yourself during the tutorial and the `jenkins/scripts` subdirectory
-contains a shell script with commands that are executed when Jenkins processes
-the "Deliver" stage of your Pipeline.
+The primary focus of this repository is to implement and validate CI/CD workflows rather than Java application development.
+
+## Features
+
+- Jenkins Declarative Pipeline
+- Maven Build
+- Unit Testing
+- Artifact Generation
+- Multi-stage Pipeline
+- Delivery Stage
+- Pipeline Automation
+
+## Technologies
+
+- Jenkins
+- Maven
+- Java
+- Git
+- GitHub
+
+## Purpose
+
+This repository was used to:
+
+- Learn Jenkins Pipeline syntax
+- Practice multi-stage CI/CD pipelines
+- Automate build and test stages
+- Experiment with pipeline enhancements
+- Validate Jenkins workflow execution
+
+## Credits
+
+This project is based on the Jenkins sample repository:
+https://github.com/jenkins-docs/simple-java-maven-app
+
+The application source code belongs to the Jenkins project. The Jenkins pipeline implementation and modifications in this repository were created for learning and DevOps practice.
